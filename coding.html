@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/coding.css">
+    <title>Coding</title>
+</head>
+
+<body>
+    <div class="top_bar">
+        <div class="header">
+            <h1>
+                Coding
+            </h1>
+        </div>
+        <div class="nav_bar">
+            <div class="box">
+                <a href="index.html">
+                    Home Page
+                </a>
+            </div>
+            <div class="box">
+                <a href="art.html">
+                    Art
+                </a>
+            </div>
+            <div class="box">
+                <a href="about_me.html">
+                    About Me
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="box1">
+        <div class="left">
+            <div class="h_morse_code">
+                <h2>
+                    Morse Code Translator
+                </h2>
+            </div>
+            <div class="text_morse_code">
+                <p>
+                    This allows you to input morse code or English,<br>
+                    which then translates either to English or morse code. <br>
+                    <br>
+                    I built this with python and learned how to use a <br>
+                    dictionary. This allowed me to store the English alphabet <br>
+                    into a key: value pair with the respective morse code. <br>
+                    <br>
+                    As you can see in the message() function, this checks what <br>
+                    the user inputs and returns either true or false. <br>
+                    <br>
+                    The translate() function then creates a reversed dictionary <br>
+                    (for use in translating morse code to English), takes the <br>
+                    boolean of message() and translates to morse code if true, <br>
+                    and to English if false: returning the list (trans) as a string.
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="morse_code">
+                <img src="images/morse.png" alt="morse code" height="500">
+            </div>
+        </div>
+    </div>
+    <div class="sub_box1">
+        <div class="download_morse">
+            <a href="https://www.dropbox.com/s/jpsx1anre7pmese/morse.py?dl=1">
+                Download Morse Code Translator
+            </a>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="left">
+            <div class="game">
+                <img src="images/game.png" alt="game" height="500">
+            </div>
+        </div>
+        <div class="right">
+            <div class="h_game">
+                <h2>
+                    Text Based Adventure Game
+                </h2>
+            </div>
+            <div class="text_game">
+                <p>
+                    This was created with python with another person. We had 1 week <br>
+                    to complete the project. I worked on stuff like what you can see <br>
+                    to the left. <br>
+                    <br>
+                    The function create_class() asks the user multiple questions to<br>
+                    decideon what class the player gets. This then gets inputted into <br>
+                    a class (class is like a blueprint). <br>
+                    <br>
+                    The story of the game is that you wake up in a rundown barn, and <br>
+                    you decide where you want to go. You have 3 options, each option <br>
+                    takes you through different paths, and leads to multiple endings. <br>
+                    <br>
+                    The game has turn based combat against a variety of different <br>
+                    enemies, which has its' own randomised stats.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="sub_box2">
+        <div class="download_game">
+            <a href="https://www.dropbox.com/s/w98euw9eo46wykh/game.zip?dl=1">
+                Download Text based adventure game
+            </a>
+        </div>
+    </div>
+    <div class="box3">
+        <div class="left">
+            <div class="h_bank">
+                <h2>
+                    Bank Note Withdraw
+                </h2>
+            </div>
+            <div class="text_bank">
+                <p>
+                    This was one of the first challenges I did when learning python. <br>
+                    The challenge was to take a number between 40 and 4001, <br>
+                    and return the smallest amount of £100, £50 and £20 notes <br>
+                    the atm would dispense. <br>
+                    <br>
+                    first, it checks if the input is a valid number between 40 and 4001, <br>
+                    then splits the number into each respective column [1000, 100, 10]. <br>
+                    <br>
+                    This is then run through the withdraw() function to do maths <br>
+                    depending on the size of the list created earlier, and returns <br>
+                    the smallest amount of each note. <br>
+                    <br>
+                    Overall, it works but the code can definitely be refined to be <br>
+                    more effective and efficient. That is one thing I would do <br>
+                    differently, if I did it again.
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="bank">
+                <img src="images/atm.png" alt="morse code" height="500">
+            </div>
+        </div>
+    </div>
+    <div class="sub_box3">
+        <div class="download_bank">
+            <a href="https://www.dropbox.com/s/4eocj2r3mfttpll/banknote.py?dl=1">
+                Download Bank Note Withdraw
+            </a>
+        </div>
+    </div>
+    <div class="sub_box4">
+        <div class="home">
+            <a href="index.html">
+                <img src="images/home.png" alt="Home Page" height="150px" class="home_img">
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

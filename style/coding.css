@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+a:link {
+    text-decoration: none !important;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none !important;
+    color: black;
+}
+
+a:hover {
+    font-weight: 400;
+}
+
+img {
+    display: block;
+    margin: 10px auto 10px auto;
+    padding: 2px;
+    border: solid rgb(85, 84, 84) 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.top_bar {
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: lightgrey;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    height: 90%;
+    width: 50%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 50%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+.box1 {
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: lightblue; */
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 99%;
+    width: 48%;
+    /* background-color: rgb(252, 195, 120); */
+    margin: 5px;
+}
+
+.h_morse_code {
+    height: 10%;
+    width: 99%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+}
+
+.text_morse_code {
+    display: flex;
+    height: 90%;
+    width: 99%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 99%;
+    width: 48%;
+    /* background-color: rgb(252, 195, 120); */
+    margin: 5px;
+}
+
+.morse_code {
+    height: 90%;
+    width: 99%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    justify-content: space-around;
+}
+
+.sub_box1 {
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+    /* background-color: rgb(67, 161, 67); */
+    justify-content: space-evenly;
+}
+
+.download_morse {
+    height: 90%;
+    width: 30%;
+    /* background-color: lightyellow; */
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+.box2 {
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: lightblue; */
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 99%;
+    width: 48%;
+    /* background-color: rgb(252, 195, 120); */
+    margin: 5px;
+}
+
+.game {
+    height: 90%;
+    width: 99%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    justify-content: space-around;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 99%;
+    width: 48%;
+    /* background-color: rgb(252, 195, 120); */
+    margin: 5px;
+}
+
+.h_game {
+    height: 10%;
+    width: 99%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+}
+
+.text_game {
+    display: flex;
+    height: 90%;
+    width: 99%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.sub_box2 {
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+    /* background-color: rgb(67, 161, 67); */
+    justify-content: space-evenly;
+}
+
+.download_game {
+    height: 90%;
+    width: 35%;
+    /* background-color: lightyellow; */
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+.box3 {
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+    /* background-color: lightblue; */
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 99%;
+    width: 48%;
+    /* background-color: rgb(252, 195, 120); */
+    margin: 5px;
+}
+
+.h_bank {
+    height: 10%;
+    width: 99%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+}
+
+.text_bank {
+    display: flex;
+    height: 90%;
+    width: 99%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 99%;
+    width: 48%;
+    /* background-color: rgb(252, 195, 120); */
+    margin: 5px;
+}
+
+.bank {
+    height: 90%;
+    width: 99%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    justify-content: space-around;
+}
+
+.sub_box3 {
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+    /* background-color: rgb(67, 161, 67); */
+    justify-content: space-evenly;
+}
+
+.download_bank {
+    height: 90%;
+    width: 30%;
+    /* background-color: lightyellow; */
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+.sub_box4 {
+    display: flex;
+    margin-top: 30px;
+    /* background-color: rgb(67, 161, 67); */
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+img.home_img {
+    border: none;
+}
+
+.home {
+    height: 90;
+    width: 15%;
+    /* background-color: lightyellow; */
+    margin: 5px;
+    align-content: center;
+}
